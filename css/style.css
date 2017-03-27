@@ -2,10 +2,13 @@
     width:100%;
 }
 
-#movies .col-md3 .well{
-    height:390px;
-}
+@media(min-width:960px){
+    #movies .col-md3 .well{
+        height:390px;
+    }
 
-#movies .col-md-3 img{
-    height:240px;
+
+    #movies .col-md-3 img{
+        height:240px;
+    }
 }
